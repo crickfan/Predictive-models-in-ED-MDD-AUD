@@ -36,7 +36,7 @@ batch_run_model <- function  (idxToClassify)
   
   OuterCVFolds=10
   InnerCVFolds=5
-  Repeats=1
+  Repeats=10
   
   coVars = c('sex', 'StudySiteLondon','StudySiteBerlin','age_psytools_year') # if no coVars, set it as character(0)
   
