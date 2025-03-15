@@ -7,7 +7,7 @@ rm(list=ls())
 source('scripts/batch_run_model.R')
 
 
-# 6 individual modalities, plus all,  no-BMI  = 8 modalities 
+# 8 modalities: all, no-BMI, BMI, Personality, Cognition, Psychopathology, Substance use, Environment
 
 numModalities = 8
 
