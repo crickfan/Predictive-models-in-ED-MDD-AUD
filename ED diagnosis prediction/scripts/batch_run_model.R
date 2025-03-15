@@ -26,7 +26,7 @@ batch_run_model <- function  (idxToClassify)
   
   OuterCVFolds=  10 # outer CV to evaluate performance	
   InnerCVFolds = 5 # inner CV to turn parameters	
-  Repeats= 1 # repeat of CV, try 5 or 10 
+  Repeats= 10 # repeat of CV, try 5 or 10 
   
   coVars = 'age_IA_year' #  coVars: if there is none, set it as character(0), whose length is 0
   
